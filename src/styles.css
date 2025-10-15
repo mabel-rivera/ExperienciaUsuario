@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+.img1{ 
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    background-color: #f4f3f8;
+    border-radius: 20px;
+}

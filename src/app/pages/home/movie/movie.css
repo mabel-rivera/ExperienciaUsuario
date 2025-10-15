@@ -1,0 +1,38 @@
+:host {
+    display: block;
+    background-color: #2E2E2E;
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+    }
+
+img{
+    width: 900px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.card{
+    background-color: #4a4949;
+    margin-left: 20px;
+    width: 1080px;
+}
+
+.card-body{
+    color: white;
+}
+
+.buttons{
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 50px;
+}
+
+.buttons:hover {
+    background-color: #E4572E;
+    border-color: #E4572E;
+    color: white;
+    }

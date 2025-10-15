@@ -1,0 +1,22 @@
+img{
+    width: 200px;
+    height: auto;
+}
+
+button{
+    background: #E4572E;
+}
+
+.btnSignUp{ /*separa el boton del ultimo input*/
+    margin-top: 15px; 
+}
+
+:host{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /*la imagen se pone sobre toda la pantalla*/
+    background-image: url('/images/fondo.jpg');
+    background-size: cover; /*para que la imagen se quede quieta*/
+    background-position: center;
+}

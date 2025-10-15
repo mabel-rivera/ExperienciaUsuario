@@ -1,0 +1,19 @@
+<nav class="navbar navbar-dark">
+    <div class="container d-flex justify-content-between align-items-center">
+        <!--  botón Volver -->
+        <div class="d-flex align-items-center">
+            <button routerLink="/login"
+                class="btn btn-outline-light d-flex align-items-center me-3">
+                <ion-icon name="arrow-back-outline" class="me-2"></ion-icon>
+                Volver
+            </button>
+            <span class="navbar-brand fw-bold mb-0">{{ pageTitle }}</span>
+        </div>
+        <div class="d-flex align-items-center">
+            <span class="text-white me-2 fw-bold">@Usuario</span>
+            <img src="images/profile.jpg" alt="Perfil" class="rounded-circle"
+                width="40" height="40">
+        </div>
+
+    </div>
+</nav>

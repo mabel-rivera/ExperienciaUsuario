@@ -1,0 +1,22 @@
+
+.cardleft{ 
+    margin-top: 50px;
+    height: 700px;
+}
+
+.btnsOp{ /*Botones de la izquierda*/
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.buttons{
+    background-color: #f4f3f8;
+    box-shadow: 0 4px 8px #D9D9D9;
+    height: 60px;
+    width: 200px;
+}
+
+.buttons:hover{
+    border-color: #E4572E;
+    box-shadow: 0 4px 12px #E4572E;
+}

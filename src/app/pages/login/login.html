@@ -1,0 +1,42 @@
+<!--Implementación de la tarjeta-->
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4">
+            <div class="card shadow p-5">
+                <div class="card-body">
+                    <div class="img1"> <img class="shadow"
+                            src="images/logo.jpg"> </div>
+                    <form>
+                        <div class="mb-3 position-relative">
+                            <input type="text"
+                                class="form-control shadow rounded pe-5"
+                                id="email" placeholder="Email">
+                            <ion-icon name="mail-outline"
+                                class="position-absolute top-50 end-0 translate-middle-y me-3 text-muted"></ion-icon>
+                        </div>
+                        <div class="mb-3 position-relative">
+                            <input type="password"
+                                class="form-control shadow rounded"
+                                id="password" placeholder="Password">
+                            <ion-icon name="eye-outline"
+                                class="position-absolute top-50 end-0 translate-middle-y me-3 text-muted"></ion-icon>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button routerLink="/home"
+                                class="btn button shadow">Sign In</button>
+                        </div>
+                        <!--Poner la "o" en medio de los botones-->
+                        <div class="row align-items-center my-2">
+                            <div class="col"><hr></div>
+                            <div class="col-auto text-muted">o</div>
+                            <div class="col"><hr></div>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button routerLink="/signup"
+                                class="btn button shadow">Sign Up</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
